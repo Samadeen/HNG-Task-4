@@ -49,7 +49,7 @@ const AboutSection = ({ onSectionChange }) => {
         <span className='bg-white px-1 italic'>Ibn Momoh</span>
       </h1>
       <m.p
-        className='text-lg text-gray-600 mt-4 pl-10'
+        className='text-lg text-white mt-4 pl-10'
         initial={{
           opacity: 0,
           y: 25,
