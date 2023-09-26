@@ -19,7 +19,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false); // Set loading to false when your content is ready
-    }, 5000);
+    }, 2000);
     setMenuOpened(false);
   }, [section]);
 
