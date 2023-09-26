@@ -1,0 +1,50 @@
+.project_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 85rem;
+  gap: 5rem;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+.project {
+  width: 20rem;
+  background-color: white;
+  cursor: pointer;
+}
+
+.project img {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.project .details {
+  padding: 1rem;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.project p {
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.project .links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  transition: all 0.3s ease-in-out;
+}
+
+.project .links a:hover {
+  color: salmon;
+}
